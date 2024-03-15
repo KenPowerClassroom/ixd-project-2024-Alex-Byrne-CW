@@ -1,7 +1,37 @@
-h1 { color: blue; font-size: 55px ; margin-left: 300px;}
+h1 { color: blue; font-size: 55px ; margin-left: 100px;}
 
- h2 {font-size: 35px; margin-left: 300px;}
+ h2 {font-size: 35px; margin-left: 100px;}
 
-h3 {font-size: 30px; margin-left: 300px;}
+h3 {font-size: 30px; margin-left: 100px;}
 
-p { font-size: 20px; margin-left: 300px;}
+p { font-size: 20px; margin-left: 100px;}
+
+body{
+  display:flex;
+}
+.button {
+  background-color: blue; 
+  color:aliceblue; 
+  width: 250px; 
+  height: 50px; 
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.nav {
+
+margin-top: 100px;
+
+}
+
+.button:hover {
+  background-color: rgb(124, 181, 255); /* Green */
+  color:aliceblue;  
+} 
+
+table, tr, th{
+font-family: sans-serif;
+border: 4px solid blue;
+vertical-align: top;
+border-collapse: collapse;
+margin-left: 100px; 
+}
