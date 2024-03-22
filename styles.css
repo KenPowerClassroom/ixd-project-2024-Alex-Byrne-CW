@@ -39,3 +39,7 @@ margin-left: 100px;
 .Text { text-align: left;}
 
 .Header { font-size: 25px;}
+
+.Good { background-color: forestgreen;}
+.Mid { background-color: goldenrod;}
+.Bad { background-color: crimson;}
